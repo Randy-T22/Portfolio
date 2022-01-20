@@ -7,61 +7,39 @@
     }
 
 .main-name {
-    margin-top: -40%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 7vw;
-    /* position: relative;
-    margin-bottom: 10%; */
+    font-size: 7.5vw;
+    letter-spacing: .25vw;
+    text-shadow: 3px 2px black;
+    position: absolute;
+    margin-left: 27.5%;
+    margin-top: 22.5%;
 }
 
-.portfolio-button {
-    margin-top: -4%;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3.5vw;
-    background-color: rgb(75, 70, 70);
-    border-radius: 7vw;
-    text-decoration: none;
-    padding-left: 13.5%;
-    margin-left: 30%;
-    margin-right: 30%;
-    display: flex;
-    /* position: relative; */
+a.main-name:hover {
+    text-shadow: 3px 5px rgb(161, 154, 50);
 }
-
-a.portfolio-button:hover{
-    background-color: black;
-}
-
-/* .media-links {
-    background-color: rgb(75, 70, 70);
-    font-size: 5%;
-} */
 
 .name {
     margin-left: 2.5%;
     text-decoration: none;
     color: white;
-    font-size: 1.7vw; /*1.5em */
+    font-size: 1.7vw;
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
     height: 55%;
-    padding-top: 1.05vw; /*15px*/
+    padding-top: 1.05vw;
     margin-top: .65%;
 }
 
 a.name:hover{
     background-color: black;
-    border-radius: 15vw; /*50px*/
+    border-radius: 15vw;
     width: 15%;
     display: flex;
     justify-content: center;
     margin-left: 1.5%;
-    /* height: 75%; */
-    /* margin-top: 1.7%;
-    margin-bottom: 15%; */
 }
 
 a.about-link:hover{
@@ -148,23 +126,12 @@ a.contact-link:hover{
     padding-top: 1.05vw;
 }
 
-/* .index-background {
-
-} */
-
 .about-me-space {
     margin-top: 0%;
     background-color: rgb(56, 51, 51);
     margin-bottom: -1%;
-    height: 4.15vw; /*1em*/
+    height: 4.15vw;
 }
-
-/* .about-me-container {
-    text-align: center;
-    margin-top: 0%;
-    background-color: rgb(90, 86, 86);
-    height: 47em;
-} */
 
 .background-image {
     height: 100%;
@@ -174,24 +141,15 @@ a.contact-link:hover{
 }
 
 .background-about {
-    /* height: auto; */
     width: 100%;
     background-color: rgb(90, 86, 86);
     margin: 0%;
     padding-bottom: .1%;
 }
 
-.about-me-header {
-    font-size: 3.3vw; /*3em*/
-    color: white;
-    margin-top: 0%;
-    text-align: center;
-    padding-top: 1%;
-}
-
 .about-me-text {
     color: white;
-    font-size: 2.5vw; /*2.25em*/
+    font-size: 2.5vw;
     margin-top: -43.6%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
@@ -202,12 +160,25 @@ a.contact-link:hover{
 
 .about-me-text-container {
     background-color: rgb(56, 51, 51);
-    margin-top: 27.5%;
+    margin-top: 24.17%;
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 5px 5px 20px black;
-    /* height: 44.43vw; 40em */
     border-radius: 7.5%;
+}
+
+.about-quote{
+    font-size: 2.7vw;
+    color: white;
+    background-color: rgb(90, 86, 86);
+    padding: 1%;
+    margin-top: -.01%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 10%;
+    text-align: center;
+    border-radius: 3vw;
+    border-style: inset;
 }
 
 .projects-quote {
@@ -244,12 +215,18 @@ a.contact-link:hover{
     background-color: rgb(90, 86, 86);
     padding: 1%;
     margin-top: -.01%;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-bottom: 4%;
     text-align: center;
     border-radius: 3vw;
     border-style: inset;
+}
+
+.about-space {
+    margin-top: -7%;
+    background-color: rgb(90, 86, 86);
+    height: 6.3vw;
 }
 
 .skills-space {
@@ -271,7 +248,7 @@ a.contact-link:hover{
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 5px 5px 20px black;
-    height: 27.8vw; /*25 em*/
+    height: 27.8vw;
 }
 
 .skills-icons {
@@ -332,7 +309,6 @@ a.contact-link:hover{
 
 .linkedin-logo {
     height: 40%;
-    /* margin-left: 35%; */
     margin-top: 2%;
     background-color: rgb(233, 238, 238);
     border-radius: 25%;
@@ -398,19 +374,33 @@ a.contact-link:hover{
 .card {
     width: 30%;
     margin: 1%;
+    margin-bottom: -1%;
     color: white;
+    background-color: rgb(56, 51, 51);
     text-align: center;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 0px 0px 4px rgba(240, 240, 240, 0.658);
+    border-radius: 1.5vw;
 }
 
 .card-title {
 margin-top: 0%;
+letter-spacing: .07vw;
+}
+
+.card-line {
+    width: 90%; 
+    color: ghostwhite;
+    background-color: ghostwhite;
+    border-color: ghostwhite;
+    height: 1%;
+    margin-top: -5%;
+    margin-bottom: 4%;
 }
 
 .languages-used {
     font-size: 1.5vw;
     margin-top: -3%;
-    font-style: oblique;
+    margin-bottom: 3%;
 }
 
 .card-description {
@@ -419,25 +409,47 @@ margin-top: 0%;
     font-size: 1.2vw;
 }
 
+.argentinet-screenshot {
+    width: 100%;
+    border-radius: 1.25vw;
+    height: 41%;
+}
+
+.computerized-banker-screenshot {
+    width: 100%;
+    border-radius: 1.25vw;
+    height: 41%;
+}
+
+.everest-screenshot {
+    width: 100%;
+    border-radius: 1.25vw;
+    height: 41%;
+}
+
 .decimation-screenshot {
     width: 100%;
+    border-radius: 1.25vw;
+    height: 41%;
 }
 
 .library-screenshot {
     width: 100%;
     height: 41%;
+    border-radius: 1.25vw;
 }
 
 .charity-screenshot {
     width: 100%;
     height: 41%;
+    border-radius: 1.25vw;
 }
 
 .project-button {
     margin-bottom: -10%;
     font-size: 1.3vw;
     color: white;
-    background-color: rgb(75, 70, 70);
+    background-color: rgb(90, 86, 86);
     border-radius: 2vw;
     text-decoration: none;
     padding-left: 1.9vw;
@@ -520,15 +532,4 @@ html,body {
     height: 100%;
     margin: 0px; 
     background-color:rgb(56, 51, 51);
-    /* overflow: hidden; */
-    /* position: fixed; */
 } 
-
-/* @media screen and (max-height: 450px, max-width: 700px) {
-    .sidenav
-}
-
-
-@media (min-width: 700px) {
-  .portfolio-button:
-} */
