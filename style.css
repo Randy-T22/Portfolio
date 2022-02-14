@@ -1,153 +1,689 @@
 .search-bar-container {
-    height: 5.25vw;
+  height: 5.25vw;
+  width: 100%;
+  background-color: rgb(56, 51, 51);
+  margin-top: 0%;
+  position: relative;
+}
+
+.main-name {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 7.5vw;
+  letter-spacing: 0.25vw;
+  text-shadow: 3px 2px black;
+  position: absolute;
+  margin-left: 27.5%;
+  margin-top: 22.5%;
+}
+
+a.main-name:hover {
+  text-shadow: 3px 5px rgb(161, 154, 50);
+}
+
+.name {
+  margin-left: 2.5%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7vw;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  height: 55%;
+  padding-top: 1.05vw;
+  margin-top: 0.65%;
+}
+
+a.name:hover {
+  background-color: black;
+  border-radius: 15vw;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  margin-left: 1.5%;
+}
+
+a.about-link:hover {
+  background-color: black;
+  border-radius: 15vw;
+  width: 7%;
+  display: flex;
+  justify-content: center;
+  margin-left: 63%;
+}
+
+a.skills-link:hover {
+  background-color: black;
+  border-radius: 15vw;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  margin-left: 70.5%;
+}
+
+a.projects-link:hover {
+  background-color: black;
+  border-radius: 15vw;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  margin-left: 79%;
+}
+
+a.contact-link:hover {
+  background-color: black;
+  border-radius: 15vw;
+  width: 9%;
+  display: flex;
+  justify-content: center;
+  margin-left: 89.5%;
+}
+
+.about-link {
+  margin-left: 64%;
+  margin-top: 0.65%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7vw;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  height: 55%;
+  padding-top: 1.05vw;
+}
+
+.skills-link {
+  margin-left: 71.5%;
+  margin-top: 0.65%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7vw;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  height: 55%;
+  padding-top: 1.05vw;
+}
+
+.projects-link {
+  margin-left: 80%;
+  margin-top: 0.65%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7vw;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  height: 55%;
+  padding-top: 1.05vw;
+}
+
+.contact-link {
+  margin-left: 90.5%;
+  margin-top: 0.65%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7vw;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  height: 55%;
+  padding-top: 1.05vw;
+}
+
+.about-me-space {
+  margin-top: 0%;
+  background-color: rgb(56, 51, 51);
+  margin-bottom: -1%;
+  height: 4.15vw;
+}
+
+.background-image {
+  height: 100%;
+  max-width: 1500%;
+  background-image: url("images/light-bulb-background.jpg");
+  background-size: cover;
+}
+
+.background-about {
+  width: 100%;
+  background-color: rgb(90, 86, 86);
+  margin: 0%;
+  padding-bottom: 0.1%;
+}
+
+.about-me-text {
+  color: white;
+  font-size: 2.5vw;
+  margin-top: -43.6%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
+}
+
+.about-me-text-container {
+  background-color: rgb(56, 51, 51);
+  margin-top: 24.17%;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 7.5%;
+}
+
+.about-quote {
+  font-size: 2.7vw;
+  color: white;
+  background-color: rgb(90, 86, 86);
+  padding: 1%;
+  margin-top: -0.01%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 10%;
+  text-align: center;
+  border-radius: 3vw;
+  border-style: inset;
+}
+
+.projects-quote {
+  font-size: 2.7vw;
+  color: white;
+  background-color: rgb(90, 86, 86);
+  padding: 1%;
+  margin-top: -0.01%;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-bottom: 4%;
+  text-align: center;
+  border-radius: 3vw;
+  border-style: inset;
+}
+
+.skills-quote {
+  font-size: 2.7vw;
+  color: white;
+  background-color: rgb(90, 86, 86);
+  padding: 1%;
+  margin-top: -0.01%;
+  margin-left: 24%;
+  margin-right: 24%;
+  margin-bottom: 4%;
+  text-align: center;
+  border-radius: 3vw;
+  border-style: inset;
+}
+
+.contact-quote {
+  font-size: 2.7vw;
+  color: white;
+  background-color: rgb(90, 86, 86);
+  padding: 1%;
+  margin-top: -0.01%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 4%;
+  text-align: center;
+  border-radius: 3vw;
+  border-style: inset;
+}
+
+.about-space {
+  margin-top: -7%;
+  background-color: rgb(90, 86, 86);
+  height: 6.3vw;
+}
+
+.skills-space {
+  margin-top: -1%;
+  background-color: rgb(90, 86, 86);
+  height: 6.3vw;
+}
+
+.skills-container {
+  text-align: center;
+  margin-top: -3%;
+  background-color: rgb(90, 86, 86);
+  height: 60.5%;
+}
+
+.skills-text-container {
+  background-color: rgb(56, 51, 51);
+  margin-top: 2.5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-shadow: 5px 5px 20px black;
+  height: 27.8vw;
+}
+
+.skills-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -22.5%;
+}
+
+.skills-labels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2.5%;
+}
+
+.python-label {
+  font-size: 3vw;
+  color: white;
+}
+
+.python-logo {
+  width: 10%;
+  height: 29%;
+  padding-bottom: 0.8%;
+  display: flex;
+  margin-left: 1%;
+}
+
+.css-logo {
+  width: 10%;
+  height: 29%;
+  padding-bottom: 0.1%;
+  display: flex;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.css-label {
+  font-size: 3vw;
+  color: white;
+  margin-left: 10%;
+  margin-right: 12.5%;
+}
+
+.html-logo {
+  width: 13%;
+  height: 33%;
+  display: flex;
+}
+
+.html-label {
+  font-size: 3vw;
+  color: white;
+}
+
+.linkedin-logo {
+  height: 40%;
+  margin-top: 2%;
+  background-color: rgb(233, 238, 238);
+  border-radius: 25%;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+.linkedin-link {
+  text-decoration: none;
+}
+
+.gmail-link {
+  text-decoration: none;
+}
+
+.github-logo {
+  height: 40%;
+  background-color: rgb(233, 238, 238);
+  border-radius: 25%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.gmail-logo {
+  height: 40%;
+  background-color: rgb(233, 238, 238);
+  border-radius: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 12%;
+}
+
+.projects-space {
+  margin-top: 0%;
+  background-color: rgb(90, 86, 86);
+  height: 2vw;
+}
+
+.projects-container {
+  text-align: center;
+  margin-top: 0%;
+  background-color: rgb(90, 86, 86);
+  height: 55.55vw;
+  overflow: hidden;
+}
+
+.projects-header {
+  font-size: 1vw;
+  color: white;
+  margin-top: -0.4%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(90, 86, 86);
+  margin-top: -1%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.card {
+  width: 30%;
+  margin: 1%;
+  margin-bottom: -1%;
+  color: white;
+  background-color: rgb(56, 51, 51);
+  text-align: center;
+  box-shadow: 0px 0px 4px rgba(240, 240, 240, 0.658);
+  border-radius: 1.5vw;
+}
+
+.card-title {
+  margin-top: 0%;
+  letter-spacing: 0.07vw;
+}
+
+.card-line {
+  width: 90%;
+  color: ghostwhite;
+  background-color: ghostwhite;
+  border-color: ghostwhite;
+  height: 1%;
+  margin-top: -5%;
+  margin-bottom: 4%;
+}
+
+.languages-used {
+  font-size: 1.5vw;
+  margin-top: -3%;
+  margin-bottom: 3%;
+}
+
+.card-description {
+  margin: 3%;
+  margin-top: -2%;
+  font-size: 1.2vw;
+}
+
+.argentinet-screenshot {
+  width: 100%;
+  border-radius: 1.25vw;
+  height: 41%;
+}
+
+.computerized-banker-screenshot {
+  width: 100%;
+  border-radius: 1.25vw;
+  height: 41%;
+}
+
+.everest-screenshot {
+  width: 100%;
+  border-radius: 1.25vw;
+  height: 41%;
+}
+
+.decimation-screenshot {
+  width: 100%;
+  border-radius: 1.25vw;
+  height: 41%;
+}
+
+.library-screenshot {
+  width: 100%;
+  height: 41%;
+  border-radius: 1.25vw;
+}
+
+.charity-screenshot {
+  width: 100%;
+  height: 41%;
+  border-radius: 1.25vw;
+}
+
+.project-button {
+  margin-bottom: -10%;
+  font-size: 1.3vw;
+  color: white;
+  background-color: rgb(90, 86, 86);
+  border-radius: 2vw;
+  text-decoration: none;
+  padding-left: 1.9vw;
+  padding-right: 1.9vw;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  display: flex;
+}
+
+a.project-button:hover {
+  background-color: black;
+}
+
+.decimation-description {
+  color: white;
+  font-size: 1.6vw;
+  margin-top: -1.2%;
+  margin-right: 55%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.projects-text-container {
+  background-color: rgb(56, 51, 51);
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 55%;
+  box-shadow: 5px 5px 20px black;
+  height: 37.8vw;
+  overflow: scroll;
+}
+
+.decimation-project-image {
+  height: 34%;
+  width: 35%;
+  margin-top: -100%;
+  margin-bottom: 24%;
+  margin-right: 45%;
+}
+
+.contact-space {
+  margin-top: 0%;
+  background-color: rgb(90, 86, 86);
+  height: 1em;
+}
+
+.contact-container {
+  text-align: center;
+  margin-top: -1%;
+  background-color: rgb(90, 86, 86);
+  height: 41vw;
+  margin-bottom: 0%;
+}
+
+.contact-header {
+  font-size: 3em;
+  color: white;
+  margin-top: -0.4%;
+}
+
+.contact-text {
+  color: white;
+  font-size: 1.75em;
+  margin-top: -27.3%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.contact-text-container {
+  background-color: rgb(56, 51, 51);
+  margin-top: -2.5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-shadow: 5px 5px 20px black;
+  height: 25em;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-color: rgb(56, 51, 51);
+}
+
+@media screen and (max-width: 600px) {
+  .search-bar-container {
+    height: 10vw;
     width: 100%;
     background-color: rgb(56, 51, 51);
     margin-top: 0%;
     position: relative;
-    }
+  }
 
-.main-name {
+  .main-name {
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 7.5vw;
-    letter-spacing: .25vw;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10vw;
+    letter-spacing: 0.25vw;
     text-shadow: 3px 2px black;
-    position: absolute;
-    margin-left: 27.5%;
-    margin-top: 22.5%;
-}
+    margin-top: 70%;
+    margin-left: 18%;
+  }
 
-a.main-name:hover {
+  a.main-name:hover {
     text-shadow: 3px 5px rgb(161, 154, 50);
-}
+  }
 
-.name {
+  .name {
     margin-left: 2.5%;
     text-decoration: none;
     color: white;
-    font-size: 1.7vw;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5vw;
+    font-family: "Courier New", Courier, monospace;
     position: absolute;
     height: 55%;
     padding-top: 1.05vw;
-    margin-top: .65%;
-}
+    margin-top: 1.8%;
+  }
 
-a.name:hover{
+  a.name:hover {
     background-color: black;
     border-radius: 15vw;
     width: 15%;
     display: flex;
     justify-content: center;
     margin-left: 1.5%;
-}
+  }
 
-a.about-link:hover{
+  a.about-link:hover {
     background-color: black;
     border-radius: 15vw;
     width: 7%;
     display: flex;
     justify-content: center;
     margin-left: 63%;
-}
+  }
 
-a.skills-link:hover{
+  a.skills-link:hover {
     background-color: black;
     border-radius: 15vw;
     width: 8%;
     display: flex;
     justify-content: center;
     margin-left: 70.5%;
-}
+  }
 
-a.projects-link:hover{
+  a.projects-link:hover {
     background-color: black;
     border-radius: 15vw;
     width: 10%;
     display: flex;
     justify-content: center;
     margin-left: 79%;
-}
+  }
 
-a.contact-link:hover{
+  a.contact-link:hover {
     background-color: black;
     border-radius: 15vw;
     width: 9%;
     display: flex;
     justify-content: center;
     margin-left: 89.5%;
-}
+  }
 
-.about-link {
-    margin-left: 64%;
-    margin-top: .65%;
+  .about-link {
+    margin-left: 33%;
+    margin-top: 1.8%;
     text-decoration: none;
     color: white;
-    font-size: 1.7vw;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5vw;
+    font-family: "Courier New", Courier, monospace;
     position: absolute;
     height: 55%;
     padding-top: 1.05vw;
-}
+  }
 
-.skills-link {
-    margin-left: 71.5%;
-    margin-top: .65%;
+  .skills-link {
+    margin-left: 46.5%;
+    margin-top: 1.8%;
     text-decoration: none;
     color: white;
-    font-size: 1.7vw;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5vw;
+    font-family: "Courier New", Courier, monospace;
     position: absolute;
     height: 55%;
     padding-top: 1.05vw;
-}
+  }
 
-.projects-link {
-    margin-left: 80%;
-    margin-top: .65%;
+  .projects-link {
+    margin-left: 62.5%;
+    margin-top: 1.8%;
     text-decoration: none;
     color: white;
-    font-size: 1.7vw;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5vw;
+    font-family: "Courier New", Courier, monospace;
     position: absolute;
     height: 55%;
     padding-top: 1.05vw;
-}
+  }
 
-.contact-link {
-    margin-left: 90.5%;
-    margin-top: .65%;
+  .contact-link {
+    margin-left: 82.5%;
+    margin-top: 1.8%;
     text-decoration: none;
     color: white;
-    font-size: 1.7vw;
-    font-family: 'Courier New', Courier, monospace;
-    position: absolute;
+    font-size: 3.5vw;
+    font-family: "Courier New", Courier, monospace;
     height: 55%;
     padding-top: 1.05vw;
-}
+  }
 
-.about-me-space {
+  .about-me-space {
     margin-top: 0%;
     background-color: rgb(56, 51, 51);
     margin-bottom: -1%;
     height: 4.15vw;
-}
+  }
 
-.background-image {
+  .background-image {
     height: 100%;
-    max-width: 1500%;
+    max-width: 1000%;
     background-image: url("images/light-bulb-background.jpg");
-    background-size: cover;
-}
+    background-position: 20% 70%;
+  }
 
-.background-about {
+  .background-about {
     width: 100%;
     background-color: rgb(90, 86, 86);
     margin: 0%;
-    padding-bottom: .1%;
-}
+    padding-bottom: 0.1%;
+  }
 
-.about-me-text {
+  .about-me-text {
     color: white;
     font-size: 2.5vw;
     margin-top: -43.6%;
@@ -156,212 +692,212 @@ a.contact-link:hover{
     margin-left: 10%;
     margin-right: 10%;
     height: auto;
-}
+  }
 
-.about-me-text-container {
+  .about-me-text-container {
     background-color: rgb(56, 51, 51);
     margin-top: 24.17%;
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 5px 5px 20px black;
     border-radius: 7.5%;
-}
+  }
 
-.about-quote{
-    font-size: 2.7vw;
+  .about-quote {
+    font-size: 3.5vw;
     color: white;
     background-color: rgb(90, 86, 86);
     padding: 1%;
-    margin-top: -.01%;
+    margin-top: -0.01%;
     margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 10%;
     text-align: center;
     border-radius: 3vw;
     border-style: inset;
-}
+  }
 
-.projects-quote {
+  .projects-quote {
     font-size: 2.7vw;
     color: white;
     background-color: rgb(90, 86, 86);
     padding: 1%;
-    margin-top: -.01%;
+    margin-top: -0.01%;
     margin-left: 9%;
     margin-right: 9%;
     margin-bottom: 4%;
     text-align: center;
     border-radius: 3vw;
     border-style: inset;
-}
+  }
 
-.skills-quote {
+  .skills-quote {
     font-size: 2.7vw;
     color: white;
     background-color: rgb(90, 86, 86);
     padding: 1%;
-    margin-top: -.01%;
+    margin-top: -0.01%;
     margin-left: 24%;
     margin-right: 24%;
     margin-bottom: 4%;
     text-align: center;
     border-radius: 3vw;
     border-style: inset;
-}
+  }
 
-.contact-quote {
+  .contact-quote {
     font-size: 2.7vw;
     color: white;
     background-color: rgb(90, 86, 86);
     padding: 1%;
-    margin-top: -.01%;
+    margin-top: -0.01%;
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 4%;
     text-align: center;
     border-radius: 3vw;
     border-style: inset;
-}
+  }
 
-.about-space {
+  .about-space {
     margin-top: -7%;
     background-color: rgb(90, 86, 86);
     height: 6.3vw;
-}
+  }
 
-.skills-space {
+  .skills-space {
     margin-top: -1%;
     background-color: rgb(90, 86, 86);
     height: 6.3vw;
-}
+  }
 
-.skills-container {
+  .skills-container {
     text-align: center;
     margin-top: -3%;
     background-color: rgb(90, 86, 86);
     height: 60.5%;
-}
+  }
 
-.skills-text-container {
+  .skills-text-container {
     background-color: rgb(56, 51, 51);
     margin-top: 2.5%;
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 5px 5px 20px black;
     height: 27.8vw;
-}
+  }
 
-.skills-icons {
+  .skills-icons {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: -22.5%;
-}
+  }
 
-.skills-labels {
+  .skills-labels {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: -2.5%;
-}
+  }
 
-.python-label {
+  .python-label {
     font-size: 3vw;
     color: white;
-}
+  }
 
-.python-logo {
+  .python-logo {
     width: 10%;
     height: 29%;
-    padding-bottom: .8%;
+    padding-bottom: 0.8%;
     display: flex;
     margin-left: 1%;
-}
+  }
 
-.css-logo {
+  .css-logo {
     width: 10%;
     height: 29%;
-    padding-bottom: .1%;
+    padding-bottom: 0.1%;
     display: flex;
     margin-left: 7.5%;
     margin-right: 7.5%;
-}
+  }
 
-.css-label {
+  .css-label {
     font-size: 3vw;
     color: white;
     margin-left: 10%;
     margin-right: 12.5%;
-}
+  }
 
-.html-logo {
+  .html-logo {
     width: 13%;
     height: 33%;
     display: flex;
-}
+  }
 
-.html-label {
+  .html-label {
     font-size: 3vw;
     color: white;
-}
+  }
 
-.linkedin-logo {
+  .linkedin-logo {
     height: 40%;
     margin-top: 2%;
     background-color: rgb(233, 238, 238);
     border-radius: 25%;
     margin-right: 10%;
     margin-left: 5%;
-}
+  }
 
-.linkedin-link {
+  .linkedin-link {
     text-decoration: none;
-}
+  }
 
-.gmail-link {
+  .gmail-link {
     text-decoration: none;
-}
+  }
 
-.github-logo {
+  .github-logo {
     height: 40%;
     background-color: rgb(233, 238, 238);
     border-radius: 25%;
     margin-left: 10%;
     margin-right: 5%;
-}
+  }
 
-.gmail-logo {
+  .gmail-logo {
     height: 40%;
     background-color: rgb(233, 238, 238);
     border-radius: 25%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 12%;
-}
+  }
 
-.projects-space {
+  .projects-space {
     margin-top: 0%;
     background-color: rgb(90, 86, 86);
     height: 2vw;
-}
+  }
 
-.projects-container {
+  .projects-container {
     text-align: center;
     margin-top: 0%;
     background-color: rgb(90, 86, 86);
     height: 55.55vw;
     overflow: hidden;
-}
+  }
 
-.projects-header {
+  .projects-header {
     font-size: 1vw;
     color: white;
-    margin-top: -.4%;
-}
+    margin-top: -0.4%;
+  }
 
-.container {
+  .container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -369,9 +905,9 @@ a.contact-link:hover{
     margin-top: -1%;
     padding-bottom: 3%;
     padding-top: 3%;
-}
+  }
 
-.card {
+  .card {
     width: 30%;
     margin: 1%;
     margin-bottom: -1%;
@@ -380,72 +916,72 @@ a.contact-link:hover{
     text-align: center;
     box-shadow: 0px 0px 4px rgba(240, 240, 240, 0.658);
     border-radius: 1.5vw;
-}
+  }
 
-.card-title {
-margin-top: 0%;
-letter-spacing: .07vw;
-}
+  .card-title {
+    margin-top: 0%;
+    letter-spacing: 0.07vw;
+  }
 
-.card-line {
-    width: 90%; 
+  .card-line {
+    width: 90%;
     color: ghostwhite;
     background-color: ghostwhite;
     border-color: ghostwhite;
     height: 1%;
     margin-top: -5%;
     margin-bottom: 4%;
-}
+  }
 
-.languages-used {
+  .languages-used {
     font-size: 1.5vw;
     margin-top: -3%;
     margin-bottom: 3%;
-}
+  }
 
-.card-description {
+  .card-description {
     margin: 3%;
     margin-top: -2%;
     font-size: 1.2vw;
-}
+  }
 
-.argentinet-screenshot {
+  .argentinet-screenshot {
     width: 100%;
     border-radius: 1.25vw;
     height: 41%;
-}
+  }
 
-.computerized-banker-screenshot {
+  .computerized-banker-screenshot {
     width: 100%;
     border-radius: 1.25vw;
     height: 41%;
-}
+  }
 
-.everest-screenshot {
+  .everest-screenshot {
     width: 100%;
     border-radius: 1.25vw;
     height: 41%;
-}
+  }
 
-.decimation-screenshot {
+  .decimation-screenshot {
     width: 100%;
     border-radius: 1.25vw;
     height: 41%;
-}
+  }
 
-.library-screenshot {
+  .library-screenshot {
     width: 100%;
     height: 41%;
     border-radius: 1.25vw;
-}
+  }
 
-.charity-screenshot {
+  .charity-screenshot {
     width: 100%;
     height: 41%;
     border-radius: 1.25vw;
-}
+  }
 
-.project-button {
+  .project-button {
     margin-bottom: -10%;
     font-size: 1.3vw;
     color: white;
@@ -457,79 +993,73 @@ letter-spacing: .07vw;
     margin-left: 37.5%;
     margin-right: 37.5%;
     display: flex;
-}
+  }
 
-a.project-button:hover {
+  a.project-button:hover {
     background-color: black;
-}
+  }
 
-.decimation-description {
+  .decimation-description {
     color: white;
     font-size: 1.6vw;
     margin-top: -1.2%;
     margin-right: 55%;
     margin-left: 10%;
     text-align: center;
-}
+  }
 
-.projects-text-container {
+  .projects-text-container {
     background-color: rgb(56, 51, 51);
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 55%;
     box-shadow: 5px 5px 20px black;
-    height: 37.8vw; 
+    height: 37.8vw;
     overflow: scroll;
-}
+  }
 
-.decimation-project-image {
+  .decimation-project-image {
     height: 34%;
     width: 35%;
     margin-top: -100%;
     margin-bottom: 24%;
     margin-right: 45%;
-}
+  }
 
-.contact-space {
+  .contact-space {
     margin-top: 0%;
     background-color: rgb(90, 86, 86);
     height: 1em;
-}
+  }
 
-.contact-container {
+  .contact-container {
     text-align: center;
     margin-top: -1%;
     background-color: rgb(90, 86, 86);
     height: 41vw;
     margin-bottom: 0%;
-}
+  }
 
-.contact-header {
+  .contact-header {
     font-size: 3em;
     color: white;
-    margin-top: -.4%;
-}
+    margin-top: -0.4%;
+  }
 
-.contact-text {
+  .contact-text {
     color: white;
     font-size: 1.75em;
     margin-top: -27.3%;
     margin-left: 25%;
     margin-right: 25%;
-}
+  }
 
-.contact-text-container {
+  .contact-text-container {
     background-color: rgb(56, 51, 51);
     margin-top: -2.5%;
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 5px 5px 20px black;
     height: 25em;
+  }
 }
-
-html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0px; 
-    background-color:rgb(56, 51, 51);
-} 
